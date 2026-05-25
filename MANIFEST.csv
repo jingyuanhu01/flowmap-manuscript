@@ -1,7 +1,7 @@
 old_path,new_path,note
-/Users/jh/Projects/flowmap_figure_code/00_shared_code/vector_field_visualization/scripts,/Users/jh/Projects/flowmap_code_by_dataset/00_shared_helpers/vector_field_visualization_scripts/scripts,shared vector field helper package
-/Users/jh/Projects/flowmap_figure_code/00_shared_code/vector_field_visualization/SIRV,/Users/jh/Projects/flowmap_code_by_dataset/00_shared_helpers/vector_field_visualization_SIRV/SIRV,shared SIRV helper scripts
-/Users/jh/Projects/flowmap_figure_code/00_shared_code/flowmap_manuscript/utils,/Users/jh/Projects/flowmap_code_by_dataset/00_shared_helpers/b_cell_preprocessing/utils,B-cell preprocessing utilities
+/Users/jh/Projects/flowmap_figure_code/00_shared_code/vector_field_visualization/scripts,/Users/jh/Projects/flowmap_code_by_dataset/legacy_flowmap_helpers,shared vector field helper package
+/Users/jh/Projects/flowmap_figure_code/00_shared_code/vector_field_visualization/SIRV,/Users/jh/Projects/flowmap_code_by_dataset/08_spatial_mouse_organogenesis/SIRV,shared SIRV helper scripts
+/Users/jh/Projects/flowmap_figure_code/00_shared_code/flowmap_manuscript/utils,/Users/jh/Projects/flowmap_code_by_dataset/07_b_cell_igvf/b_cell_preprocessing/utils,B-cell preprocessing utilities
 /Users/jh/Projects/flowmap_figure_code/01_figure_1_concept/source_vector_field_visualization/fig1.ipynb,/Users/jh/Projects/flowmap_code_by_dataset/01_method_overview/source_vector_field_visualization/method_overview_s_curve_embedding_panels.ipynb,overview notebook; saves S-curve data and panels
 /Users/jh/Projects/flowmap_figure_code/01_figure_1_concept/source_vector_field_visualization/fig1_old.ipynb,/Users/jh/Projects/flowmap_code_by_dataset/01_method_overview/source_vector_field_visualization/method_overview_legacy_branching_vector_field.ipynb,legacy overview/branching vector field notebook
 /Users/jh/Projects/flowmap_figure_code/02_figure_2_simulation_benchmark/source_vector_field_visualization/fig2.ipynb,/Users/jh/Projects/flowmap_code_by_dataset/02_simulated_vector_fields/source_vector_field_visualization/simulation_collection_main_panels.ipynb,simulated vector-field benchmark content
