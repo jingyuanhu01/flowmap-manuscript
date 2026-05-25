@@ -1,0 +1,71 @@
+.DS_Store
+._*
+
+# Python/Jupyter noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Source data and generated outputs are intentionally not committed.
+data/**
+!data/
+!data/*/
+!data/*/.gitkeep
+generated_figures/**
+!generated_figures/
+!generated_figures/*/
+!generated_figures/*/.gitkeep
+
+# Old wrapper symlink layers that point to local machine data/figures.
+00_shared_code/
+01_figure_1_concept/
+02_figure_2_simulation_benchmark/
+03_figure_3_cell_cycle_conflict/
+03_figure_3_pancreas/
+04_figure_4_larry_embedding_and_gradient/
+05_figure_5_larry_curvature/
+06_velocity_estimation_benchmarks/
+07_figure_7_b_cell_conflict/
+07_figure_7_spatial_velocity_conflict/
+08_supplemental_tps_and_geometry/
+09_exploratory_unassigned/
+source_data/
+source_figures/
+
+# Large scientific data and derived artifacts
+*.h5ad
+*.h5
+*.loom
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.mtx
+*.mtx.gz
+*.bam
+*.bai
+*.bw
+*.bigWig
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Manuscript/figure render outputs
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
