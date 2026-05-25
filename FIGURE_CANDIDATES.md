@@ -5,9 +5,9 @@ This file records likely manuscript figure ownership based on notebook contents,
 ## Main Figure Candidates
 
 - Figure 2 / simulated vector-field benchmark:
-  - `02_simulated_vector_fields/source_vector_field_visualization/simulation_collection_main_panels.ipynb`
-  - `02_simulated_vector_fields/source_vector_field_visualization/simulation_collection_score_summary.ipynb`
-  - `02_simulated_vector_fields/source_vector_field_visualization/benchmark_simulated_*_embedding.ipynb`
+  - `01_simulation_benchmark/source_vector_field_visualization/simulation_collection_main_panels.ipynb`
+  - `01_simulation_benchmark/source_vector_field_visualization/simulation_collection_score_summary.ipynb`
+  - `01_simulation_benchmark/source_vector_field_visualization/benchmark_simulated_*_embedding.ipynb`
 
 - Pancreas / endocrinogenesis figure:
   - `05_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_main_embedding_concordance_gene_panels.ipynb`
@@ -37,11 +37,11 @@ This file records likely manuscript figure ownership based on notebook contents,
 ## Supplement / Methods Candidates
 
 - S-curve and TPS geometry:
-  - `03_s_curve_tps_geometry/source_flowmap_manuscript/supplement_simulate_s_curve.ipynb`
-  - `03_s_curve_tps_geometry/source_vector_field_visualization/s_curve_*.ipynb`
+  - `02_s_curve_toy_example/source_flowmap_manuscript/supplement_simulate_s_curve.ipynb`
+  - `02_s_curve_toy_example/source_vector_field_visualization/s_curve_*.ipynb`
 
 - Multi-dataset real-data benchmarks:
-  - `10_multi_dataset_benchmarks/source_*/*.ipynb`
+  - `03_real_data_benchmark/source_*/*.ipynb`
 
 - Dentate gyrus:
   - `09_dentate_gyrus/source_vector_field_visualization/*.ipynb`
