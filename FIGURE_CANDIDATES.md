@@ -40,7 +40,7 @@ This file records likely manuscript figure ownership based on notebook contents,
   - `01_simulations/s_curve_toy_example/source_vector_field_visualization/s_curve_*.ipynb`
 
 - Multi-dataset real-data benchmarks:
-  - `03_real_data_benchmark/source_*/*.ipynb`
+  - `08_real_data_benchmarks/source_*/*.ipynb`
 
 - Dentate gyrus:
   - `09_dentate_gyrus/source_vector_field_visualization/*.ipynb`

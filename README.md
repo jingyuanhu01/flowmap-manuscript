@@ -14,7 +14,7 @@ The intended template is:
 - `01_simulations/` - all simulation code.
   - `vector_field_benchmark/` - simulated 8-vector-field collection benchmark across FlowMap, scVelo, dynamo, and veloViz.
   - `s_curve_toy_example/` - S-curve toy-example code, including simulation, TPS, perturbation-distance, and geometry notebooks.
-- `03_real_data_benchmark/` - cross-dataset real-data and velocity-estimation benchmarks.
+- `08_real_data_benchmarks/` - cross-dataset real-data and velocity-estimation benchmarks.
 - `02_cell_cycle_rpe1/` - RPE1/FUCCI cell-cycle manuscript notebook.
 - `03_pancreas_endocrinogenesis/` - pancreas/endocrinogenesis analysis and scVelo kinetics.
 - `04_larry_gradient/` - LARRY hematopoiesis embedding, gradients, fixed points, and pseudotime.
