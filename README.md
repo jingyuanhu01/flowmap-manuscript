@@ -11,8 +11,9 @@ The intended template is:
 
 ## Top-Level Layout
 
-- `01_simulation_benchmark/` - simulated 8-vector-field collection benchmark across FlowMap, scVelo, dynamo, and veloViz.
-- `02_s_curve_toy_example/` - all S-curve toy-example code, including simulation, TPS, perturbation-distance, and geometry notebooks.
+- `01_simulations/` - all simulation code.
+  - `vector_field_benchmark/` - simulated 8-vector-field collection benchmark across FlowMap, scVelo, dynamo, and veloViz.
+  - `s_curve_toy_example/` - S-curve toy-example code, including simulation, TPS, perturbation-distance, and geometry notebooks.
 - `03_real_data_benchmark/` - cross-dataset real-data and velocity-estimation benchmarks.
 - `02_cell_cycle_rpe1/` - RPE1/FUCCI cell-cycle manuscript notebook.
 - `03_pancreas_endocrinogenesis/` - pancreas/endocrinogenesis analysis and scVelo kinetics.
