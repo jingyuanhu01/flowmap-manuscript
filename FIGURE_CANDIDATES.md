@@ -15,8 +15,7 @@ This file records likely manuscript figure ownership based on notebook contents,
   - `05_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_scvelo_kinetics_velocity_inference.ipynb`
 
 - RPE1 / FUCCI cell-cycle figure:
-  - `04_cell_cycle_rpe1/source_flowmap_manuscript/cell_cycle_main_phase_embedding_streams.ipynb`
-  - `04_cell_cycle_rpe1/source_vector_field_visualization/cell_cycle_embedding_dof_sweep_and_streamplots.ipynb`
+  - `04_cell_cycle_rpe1/cell_cycle_main_phase_embedding_streams.ipynb`
 
 - LARRY embedding / fixed-point / gradient figure:
   - `06_larry_hematopoiesis/source_flowmap_manuscript/larry_main_embedding_and_legend.ipynb`
