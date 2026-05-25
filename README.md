@@ -25,6 +25,28 @@ Data and generated figures are routed through repo-local placeholder folders. Th
 - `source_data/` - stable symlink layer used by notebook folders.
 - `source_figures/` - stable symlink layer used by notebook folders.
 
+## Merged Code View
+
+Each dataset/content folder now has a `code/` folder that merges notebooks and helper scripts from both old sources:
+
+- `source_flowmap_manuscript/`
+- `source_vector_field_visualization/`
+
+The original `source_*` folders are still present for traceability and for old relative-path behavior. The merged `code/` folders are the cleaner place to inspect and run notebooks going forward.
+
+Inside each `code/` folder, source-specific adapters are named explicitly:
+
+- `data_flowmap_manuscript`
+- `data_vector_field_visualization`
+- `data_vector_field_simulation`
+- `figures_flowmap_manuscript`
+- `figures_vector_field_visualization`
+- `utils`
+- `scripts`
+- `SIRV`
+
+See `MERGED_CODE_MANIFEST.csv` for the exact source-to-merged mapping.
+
 ## Traceability
 
 See `MANIFEST.csv` for every move/rename from the first-pass folder into this dataset/content layout.

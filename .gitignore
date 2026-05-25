@@ -36,8 +36,6 @@ generated_figures/**
 07_figure_7_spatial_velocity_conflict/
 08_supplemental_tps_and_geometry/
 09_exploratory_unassigned/
-source_data/
-source_figures/
 
 # Large scientific data and derived artifacts
 *.h5ad
