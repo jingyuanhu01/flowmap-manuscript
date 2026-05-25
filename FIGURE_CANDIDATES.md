@@ -4,10 +4,6 @@ This file records likely manuscript figure ownership based on notebook contents,
 
 ## Main Figure Candidates
 
-- Figure 1 / method overview:
-  - `01_method_overview/source_vector_field_visualization/method_overview_s_curve_embedding_panels.ipynb`
-  - `01_method_overview/source_vector_field_visualization/method_overview_legacy_branching_vector_field.ipynb`
-
 - Figure 2 / simulated vector-field benchmark:
   - `02_simulated_vector_fields/source_vector_field_visualization/simulation_collection_main_panels.ipynb`
   - `02_simulated_vector_fields/source_vector_field_visualization/simulation_collection_score_summary.ipynb`

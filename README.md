@@ -6,7 +6,6 @@ Data and generated figures are routed through repo-local placeholder folders. Th
 
 ## Top-Level Layout
 
-- `01_method_overview/` - method overview / schematic-like notebooks.
 - `02_simulated_vector_fields/` - synthetic 1D/2D/swiss-roll/vector-field collection benchmarks.
 - `03_s_curve_tps_geometry/` - S-curve, TPS, perturbation-distance, and geometry notebooks.
 - `04_cell_cycle_rpe1/` - RPE1/FUCCI cell-cycle analysis.
