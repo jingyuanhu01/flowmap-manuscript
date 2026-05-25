@@ -14,11 +14,12 @@ The intended template is:
 - `01_simulation_benchmark/` - simulated 8-vector-field collection benchmark across FlowMap, scVelo, dynamo, and veloViz.
 - `02_s_curve_toy_example/` - all S-curve toy-example code, including simulation, TPS, perturbation-distance, and geometry notebooks.
 - `03_real_data_benchmark/` - cross-dataset real-data and velocity-estimation benchmarks.
-- `04_cell_cycle_rpe1/` - RPE1/FUCCI cell-cycle manuscript notebook.
-- `05_pancreas_endocrinogenesis/` - pancreas/endocrinogenesis analysis and scVelo kinetics.
-- `06_larry_hematopoiesis/` - LARRY hematopoiesis embedding, gradients, fixed points, curvature, pseudotime.
-- `07_b_cell_igvf/` - IGVF/B-cell embedding, curvature analysis, and B-cell preprocessing helpers.
-- `08_spatial_mouse_organogenesis/` - SeqFISH/SIRV mouse organogenesis, spatial velocity analysis, and SIRV helper scripts.
+- `02_cell_cycle_rpe1/` - RPE1/FUCCI cell-cycle manuscript notebook.
+- `03_pancreas_endocrinogenesis/` - pancreas/endocrinogenesis analysis and scVelo kinetics.
+- `04_larry_gradient/` - LARRY hematopoiesis embedding, gradients, fixed points, and pseudotime.
+- `05_larry_curvature/` - LARRY curvature and fate-bias notebooks.
+- `06_b_cell_igvf/` - IGVF/B-cell embedding, curvature analysis, and B-cell preprocessing helpers.
+- `07_spatial_mouse_organogenesis/` - SeqFISH/SIRV mouse organogenesis, spatial velocity analysis, and SIRV helper scripts.
 - `09_dentate_gyrus/` - dentate gyrus velocity/fixed-point notebooks.
 - `11_circle_and_method_exploration/` - circle toy system and method-development scratch work.
 - `12_unassigned_reference/` - anything left over after the content-based pass.

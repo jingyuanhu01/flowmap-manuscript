@@ -10,28 +10,28 @@ This file records likely manuscript figure ownership based on notebook contents,
   - `01_simulation_benchmark/source_vector_field_visualization/benchmark_simulated_*_embedding.ipynb`
 
 - Pancreas / endocrinogenesis figure:
-  - `05_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_main_embedding_concordance_gene_panels.ipynb`
-  - `05_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_flowmap_gene_evaluation_vs_deg.ipynb`
-  - `05_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_scvelo_kinetics_velocity_inference.ipynb`
+  - `03_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_main_embedding_concordance_gene_panels.ipynb`
+  - `03_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_flowmap_gene_evaluation_vs_deg.ipynb`
+  - `03_pancreas_endocrinogenesis/source_flowmap_manuscript/pancreas_scvelo_kinetics_velocity_inference.ipynb`
 
 - RPE1 / FUCCI cell-cycle figure:
-  - `04_cell_cycle_rpe1/cell_cycle_main_phase_embedding_streams.ipynb`
+  - `02_cell_cycle_rpe1/cell_cycle_main_phase_embedding_streams.ipynb`
 
 - LARRY embedding / fixed-point / gradient figure:
-  - `06_larry_hematopoiesis/source_flowmap_manuscript/larry_main_embedding_and_legend.ipynb`
-  - `06_larry_hematopoiesis/source_flowmap_manuscript/larry_main_fp1_gradient_field_paths.ipynb`
+  - `04_larry_gradient/source_flowmap_manuscript/larry_main_embedding_and_legend.ipynb`
+  - `04_larry_gradient/source_flowmap_manuscript/larry_main_fp1_gradient_field_paths.ipynb`
 
 - LARRY curvature / fate-bias figure:
-  - `06_larry_hematopoiesis/source_flowmap_manuscript/larry_main_curvature_fate_bias.ipynb`
-  - `06_larry_hematopoiesis/source_vector_field_visualization/larry_curvature_region*_*.ipynb`
+  - `05_larry_curvature/source_flowmap_manuscript/larry_main_curvature_fate_bias.ipynb`
+  - `05_larry_curvature/source_vector_field_visualization/larry_curvature_region*_*.ipynb`
 
 - B-cell / IGVF figure:
-  - `07_b_cell_igvf/source_flowmap_manuscript/b_cell_main_velocity_curvature_volcano_panels.ipynb`
-  - `07_b_cell_igvf/source_flowmap_manuscript/b_cell_*curvature_panels.ipynb`
+  - `06_b_cell_igvf/source_flowmap_manuscript/b_cell_main_velocity_curvature_volcano_panels.ipynb`
+  - `06_b_cell_igvf/source_flowmap_manuscript/b_cell_*curvature_panels.ipynb`
 
 - Mouse organogenesis / spatial velocity figure:
-  - `08_spatial_mouse_organogenesis/source_flowmap_manuscript/mouse_organogenesis_main_spatial_velocity_gene_gradients.ipynb`
-  - `08_spatial_mouse_organogenesis/source_vector_field_visualization/mouse_organogenesis_embedding_spatial_velocity.ipynb`
+  - `07_spatial_mouse_organogenesis/source_flowmap_manuscript/mouse_organogenesis_main_spatial_velocity_gene_gradients.ipynb`
+  - `07_spatial_mouse_organogenesis/source_vector_field_visualization/mouse_organogenesis_embedding_spatial_velocity.ipynb`
 
 ## Supplement / Methods Candidates
 
