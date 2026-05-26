@@ -5,7 +5,6 @@ This repository is a minimal reproduction dump for the FlowMap manuscript. Code 
 The intended template is:
 
 - root `flowmap_legacy/` for shared legacy FlowMap helper scripts
-- root `scripts/` for shared non-legacy scripts
 - root `data/` for uploaded source data
 - one folder per analysis, with a notebook, a `figures/` output folder/link, and a local `utils/` folder only when that analysis needs extra Python files
 
@@ -22,7 +21,6 @@ The intended template is:
 - `06_b_cell_igvf/` - IGVF/B-cell embedding, curvature analysis, and B-cell preprocessing helpers.
 - `07_spatial_mouse_organogenesis/` - SeqFISH/SIRV mouse organogenesis, spatial velocity analysis, and SIRV helper scripts.
 - `flowmap_legacy/` - shared legacy FlowMap/vector-field helper scripts used across notebooks.
-- `scripts/` - shared manuscript scripts that are not legacy FlowMap internals.
 - `data/` - place source data here for GitHub reproduction.
 
 ## Traceability
