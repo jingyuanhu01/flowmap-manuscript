@@ -25,7 +25,6 @@ The intended template is:
 - `scripts/` - shared manuscript scripts that are not legacy FlowMap internals.
 - `data/` - place source data here for GitHub reproduction.
 - `generated_figures/` - older generated figure outputs kept for reference while analysis folders move to local `figures/` outputs.
-- `source_data/` - compatibility data symlink layer kept while old notebooks are being thinned out.
 
 ## Traceability
 
@@ -50,9 +49,8 @@ Some older folders still contain `source_*` or `code/` compatibility layouts; th
 Put reproducibility data under:
 
 - `data/flowmap_manuscript/`
-- `data/vector_field_visualization/`
 - `data/vector_field_simulation/`
 
-The source folders point to those locations through relative symlinks. This avoids committing machine-specific absolute paths while still letting old notebook code use simple `./data/...` paths.
+Analysis folders point to those locations through relative symlinks where needed. This avoids committing machine-specific absolute paths while still letting old notebook code use simple `./data/...` paths.
 
 See `DATA_REQUIREMENTS.csv` for the notebook-by-notebook list of referenced data files. It is intentionally mechanical: it is a practical checklist, not a polished data dictionary.
