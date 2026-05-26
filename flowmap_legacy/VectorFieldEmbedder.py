@@ -7,9 +7,14 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.manifold import TSNE
 import umap.umap_ as umap
 
-from scripts.phase_distance_solver import PhaseDistanceGraphSolver
-from scripts.TPS import ThinPlateSpline
-from scripts.embedding_refiner import EmbeddingSGDRefiner, EmbeddingRefiner
+try:
+    from .phase_distance_solver import PhaseDistanceGraphSolver
+    from .TPS import ThinPlateSpline
+    from .embedding_refiner import EmbeddingSGDRefiner, EmbeddingRefiner
+except ImportError:
+    from phase_distance_solver import PhaseDistanceGraphSolver
+    from TPS import ThinPlateSpline
+    from embedding_refiner import EmbeddingSGDRefiner, EmbeddingRefiner
 
 # Silence warnings
 warnings.simplefilter("ignore", category=FutureWarning)
@@ -323,4 +328,3 @@ class VectorFieldEmbedder:
 
         if optimise_viz:
             self._fit_splines(self.X_emb)
-

@@ -20,7 +20,10 @@ try:
     import seaborn as sns
 except ImportError:
     sns = None
-from scripts.VectorFieldGeometry import compute_velocity_on_grid
+try:
+    from .VectorFieldGeometry import compute_velocity_on_grid
+except ImportError:
+    from VectorFieldGeometry import compute_velocity_on_grid
 
 
 def plot_3d(points, points_color, title="",
