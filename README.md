@@ -21,14 +21,11 @@ The intended template is:
 - `05_larry_curvature/` - LARRY curvature and fate-bias notebooks.
 - `06_b_cell_igvf/` - IGVF/B-cell embedding, curvature analysis, and B-cell preprocessing helpers.
 - `07_spatial_mouse_organogenesis/` - SeqFISH/SIRV mouse organogenesis, spatial velocity analysis, and SIRV helper scripts.
-- `09_dentate_gyrus/` - dentate gyrus velocity/fixed-point notebooks.
-- `11_circle_and_method_exploration/` - circle toy system and method-development scratch work.
-- `12_unassigned_reference/` - anything left over after the content-based pass.
 - `flowmap_legacy/` - shared legacy FlowMap/vector-field helper scripts used across notebooks.
 - `scripts/` - shared manuscript scripts that are not legacy FlowMap internals.
 - `data/` - place source data here for GitHub reproduction.
-- `generated_figures/` - generated figure outputs land here through symlinks.
-- `source_data/` and `source_figures/` - compatibility symlink layers kept while old notebooks are being thinned out.
+- `generated_figures/` - older generated figure outputs kept for reference while analysis folders move to local `figures/` outputs.
+- `source_data/` - compatibility data symlink layer kept while old notebooks are being thinned out.
 
 ## Traceability
 
