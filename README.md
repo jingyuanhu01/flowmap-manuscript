@@ -24,7 +24,6 @@ The intended template is:
 - `flowmap_legacy/` - shared legacy FlowMap/vector-field helper scripts used across notebooks.
 - `scripts/` - shared manuscript scripts that are not legacy FlowMap internals.
 - `data/` - place source data here for GitHub reproduction.
-- `generated_figures/` - older generated figure outputs kept for reference while analysis folders move to local `figures/` outputs.
 
 ## Traceability
 
