@@ -56,13 +56,14 @@ See `DATA_REQUIREMENTS.csv` for the notebook-by-notebook list of referenced data
 
 Saved figures and result tables are committed under each analysis's `figures/`
 directory and the root `figures/` directory. These are existing local outputs;
-this repository update did not rerun the analyses or independently validate them.
+most were collected from existing local outputs. The LARRY notebooks in sections 04 and 05 were subsequently executed locally to retain inline plots; see their folder READMEs for results. Other analyses were not rerun by this update.
 
 | Analysis | Saved results |
 | --- | --- |
 | Simulated vector fields | [Embedding stream plots](01_simulations/vector_field_benchmark/figures/simulation/) |
 | Pancreas | [Expression, concordance, pseudotime, and velocity figures](03_pancreas_endocrinogenesis/figures/) |
-| LARRY curvature | [Region 1 curvature figures and cell table](05_larry_curvature/figures/larry/) |
+| LARRY gradients | [Executed notebooks and plot previews](04_larry_gradient/) |
+| LARRY curvature | [Executed notebooks and plot previews](05_larry_curvature/) |
 | B-cell IGVF | [Curvature, entropy, heterogeneity, and velocity figures](06_b_cell_igvf/figures/) |
 | Spatial mouse organogenesis | [Spatial embedding and gene-gradient figures](07_spatial_mouse_organogenesis/figures/) |
 | Cross-dataset Ricci curvature | [Figures and LARRY stage summary table](figures/ricci_cross_dataset/) |
