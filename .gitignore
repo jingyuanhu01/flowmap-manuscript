@@ -6,6 +6,11 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+.numba_cache/
+.mpl_cache/
+**/.numba_cache/
+**/.mpl_cache/
+**/intermediate_data/
 
 # Local environments
 .venv/
@@ -67,3 +72,12 @@ generated_figures/**
 *.tif
 *.tiff
 *.svg
+
+# Publish rendered analysis results while keeping source data/cache files local.
+!**/figures/**/*.pdf
+!**/figures/**/*.png
+!**/figures/**/*.jpg
+!**/figures/**/*.jpeg
+!**/figures/**/*.tif
+!**/figures/**/*.tiff
+!**/figures/**/*.svg
