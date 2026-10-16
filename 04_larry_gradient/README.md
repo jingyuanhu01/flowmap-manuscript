@@ -1,27 +1,39 @@
-# LARRY embedding and gene gradients
+# Original LARRY embedding and gene gradients
 
-The notebooks retain plots from local execution. Open a notebook to see its inline results, or browse [all saved plot images](figures/larry/). Source datasets and intermediate arrays are not included.
+These are byte-for-byte copies of the original notebooks, including their saved plots and execution history, from the local `vector_field_visualization` project. No analysis code, parameters, preprocessing, cell selection, or stored outputs were changed during recovery.
 
-## Saved embedding
+The tutorial-based replacement results have been removed. These recovered results were **not freshly rerun**.
 
-[Notebook with outputs](01_generate_saved_embedding.ipynb)
+| Notebook | Original source | Saved PNG outputs | Recorded Python / kernel |
+| --- | --- | ---: | --- |
+| [01_generate_saved_embedding.ipynb](01_generate_saved_embedding.ipynb) | `embedding_Larry.ipynb` | 42 | 3.10.20 / `scvelo` |
+| [02_fp1_gene_gradient_field.ipynb](02_fp1_gene_gradient_field.ipynb) | `gradient_field_fp1_Larry.ipynb` | 15 | 3.11.15 / `python3` |
+| [03_fp2_gene_gradient_field.ipynb](03_fp2_gene_gradient_field.ipynb) | `gradient_field_fp2_Larry.ipynb` | 22 | 3.12.12 / `python3` |
 
-![Saved embedding](figures/larry/larry_saved_embedding_stream.png)
+## Original inputs and helpers
 
-## Fixed point 1
+Run from this analysis folder. The unchanged notebooks read `./data/larry/larry_processed.h5ad` and `./data/larry/larry_embedder.pkl`. Curvature notebooks additionally read `./data/larry/cospar_tmap_result.h5ad`. The local `data` link points to the original `vector_field_visualization/data` directory and is excluded from Git. The tutorial `.joblib` input is not used.
 
-[Notebook with outputs](02_fp1_gene_gradient_field.ipynb)
+The unchanged notebooks import the original upstream `scripts.*` helpers from `vector_field_visualization/scripts`. For local verification, the `scripts` link resolves to an unchanged local helper snapshot; that snapshot and link are not published. A clone requires both the upstream helper directory as `./scripts` and the source data to be supplied locally. No datasets, pickles, or intermediate arrays are published.
 
-![Fixed point 1](figures/larry/fp1_paths_stream.png)
+Kernel labels and Python versions above are recovered notebook metadata, not a certification of the currently installed environments. In particular, the gradient notebooks both say `python3` but record different Python versions; do not substitute a single current default kernel and assume it reproduces the historical run. Several original cells set numerical thread limits to one; those settings are preserved unchanged.
 
-## Fixed point 2
+## Original execution history
 
-[Notebook with outputs](03_fp2_gene_gradient_field.ipynb)
+The embedding notebook is an exploratory record with parameter sweeps, unexecuted cells, and one stored `NameError: name 'V' is not defined` in cell index 8. This original state is retained rather than repaired or presented as a clean top-to-bottom run. The two gradient notebooks contain no stored error outputs.
 
-![Fixed point 2](figures/larry/fp2_branching_paths_stream.png)
+## Plot previews
 
-## Running locally
+Every embedded PNG is exported unchanged in [original_outputs](figures/original_outputs/); the notebooks retain the complete plot sequence.
 
-Run the notebooks one at a time from this folder using the FlowMap manuscript environment; the spline fits use multithreaded linear algebra. The input is `../data/flowmap_manuscript/larry/tutorial_larry_flowmap_data.joblib`; this file is intentionally kept local. See the root README for remaining environment and data requirements.
+### embedding_Larry.ipynb
 
-The gene-gradient notebooks use `flowmap_legacy/spline_evaluation.py` to evaluate the same TPS Jacobian formula in bounded matrix batches. This changes evaluation cost rather than the spline model, fit parameters, or input cells. Gradient angles returned in radians are converted to degrees for the polar plots and angle-based gene selection. A fixed random seed controls path initialization.
+![Original saved plot](figures/original_outputs/01_generate_saved_embedding_cell_33_output_00.png)
+
+### gradient_field_fp1_Larry.ipynb
+
+![Original saved plot](figures/original_outputs/02_fp1_gene_gradient_field_cell_03_output_00.png)
+
+### gradient_field_fp2_Larry.ipynb
+
+![Original saved plot](figures/original_outputs/03_fp2_gene_gradient_field_cell_18_output_00.png)

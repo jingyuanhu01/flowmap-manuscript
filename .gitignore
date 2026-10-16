@@ -81,3 +81,12 @@ generated_figures/**
 !**/figures/**/*.tif
 !**/figures/**/*.tiff
 !**/figures/**/*.svg
+
+# Original LARRY inputs are local only; never publish these data links.
+/04_larry_gradient/data
+/05_larry_curvature/data
+
+# Local upstream dependency snapshot; publication is limited to original results.
+/larry_legacy_scripts/
+/04_larry_gradient/scripts
+/05_larry_curvature/scripts

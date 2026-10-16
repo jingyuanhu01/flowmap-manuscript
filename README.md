@@ -54,28 +54,19 @@ See `DATA_REQUIREMENTS.csv` for the notebook-by-notebook list of referenced data
 
 ## Saved Results and Reproduction Status
 
-Saved figures and result tables are committed under each analysis's `figures/`
-directory and the root `figures/` directory. These are existing local outputs;
-most were collected from existing local outputs. The LARRY notebooks in sections 04 and 05 were subsequently executed locally to retain inline plots; see their folder READMEs for results. Other analyses were not rerun by this update.
+The original LARRY notebooks and their existing saved outputs have been recovered
+unchanged in [04: embedding and gradients](04_larry_gradient/) and
+[05: curvature and CoSpar fate analysis](05_larry_curvature/). These replace the
+superseded tutorial-based reruns. They were not freshly re-executed during
+recovery. See the folder READMEs for the original kernel metadata, upstream
+inputs, plot previews, and execution-history limitations, and
+[LARRY_SOURCE_PROVENANCE.md](LARRY_SOURCE_PROVENANCE.md) for source hashes.
 
-| Analysis | Saved results |
-| --- | --- |
-| Simulated vector fields | [Embedding stream plots](01_simulations/vector_field_benchmark/figures/simulation/) |
-| Pancreas | [Expression, concordance, pseudotime, and velocity figures](03_pancreas_endocrinogenesis/figures/) |
-| LARRY gradients | [Executed notebooks and plot previews](04_larry_gradient/) |
-| LARRY curvature | [Executed notebooks and plot previews](05_larry_curvature/) |
-| B-cell IGVF | [Curvature, entropy, heterogeneity, and velocity figures](06_b_cell_igvf/figures/) |
-| Spatial mouse organogenesis | [Spatial embedding and gene-gradient figures](07_spatial_mouse_organogenesis/figures/) |
-| Cross-dataset Ricci curvature | [Figures and LARRY stage summary table](figures/ricci_cross_dataset/) |
+Other analysis folders retain their saved local figure outputs; those analyses
+were not rerun or independently validated by this repository update.
 
-A clone is **not yet a self-contained reproduction bundle**. Source data and
-large derived arrays (`.h5ad`, `.npy`, and related formats) are excluded from Git,
-as are `intermediate_data/` directories. Some local input locations are symlinks
-to files outside this repository; their targets are not uploaded. No public data
-archive is provided by this update. Use `DATA_REQUIREMENTS.csv` as the input
-checklist and populate `data/` before running the notebooks.
-
-Several LARRY notebooks also contain an optional local FlowMap source path
-(`/Users/jh/Projects/flowmap/src`). Check their import/setup cells and configure
-the FlowMap installation for your own environment. A pinned environment and a
-clean-machine execution check remain necessary for full reproducibility.
+A clone is not a self-contained reproduction bundle. Source datasets, serialized
+embedders, and intermediate arrays remain local and are excluded from Git.
+Use `DATA_REQUIREMENTS.csv` and the analysis-specific READMEs to identify inputs.
+No data archive is uploaded. A fresh environment and clean execution check must
+be recorded separately from recovery of previously saved notebook results.
